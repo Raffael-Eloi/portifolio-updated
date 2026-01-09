@@ -1,43 +1,111 @@
 {
   "basicInfo": {
-    "name": "Jane Doe",
-    "title": "Software Engineer",
-    "summary": "Full-stack developer with a passion for building beautiful and functional web applications.",
+    "name": "Raffael Eloi",
+    "title": "Software Engineer | Software Architect",
+    "summary": "I’m a Software Engineer with a strong focus on backend development and software architecture, while also having solid experience delivering end-to-end solutions across the frontend and backend. My work centers on building, maintaining, and evolving scalable backend systems using C# and .NET, with a strong emphasis on clean code, SOLID principles, and long-term maintainability.",
     "contact": {
-      "email": "jane.doe@example.com",
-      "linkedin": "https://linkedin.com/in/janedoe",
-      "github": "https://github.com/janedoe"
+      "email": "contact@raffaeleloi.com",
+      "linkedin": "https://linkedin.com/in/raffael-eloi",
+      "github": "https://github.com/Raffael-Eloi"
     }
   },
   "experience": [
     {
-      "company": "Tech Corp",
-      "role": "Senior Developer",
-      "startDate": "2022-01",
+      "company": "HungerRush",
+      "role": "Software Engineer",
+      "startDate": "2025-10",
       "endDate": "Present",
-      "description": "Leading the frontend team in rebuilding the core product."
+      "description": "Building and maintaining seamless integrations between HungerRush’s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps."
     },
     {
-      "company": "StartUp Inc",
-      "role": "Frontend Developer",
-      "startDate": "2020-03",
-      "endDate": "2021-12",
-      "description": "Developed the MVP using React and Node.js."
+      "company": "Velozient",
+      "role": "Software Engineer",
+      "startDate": "2024-08",
+      "endDate": "Present",
+      "description": "Contributing to client projects like Mastrius and HungerRush. Working across backend and frontend systems, refactoring code, and ensuring continuous platform evolution."
+    },
+    {
+      "company": "Mastrius",
+      "role": "Software Engineer",
+      "startDate": "2024-08",
+      "endDate": "2025-10",
+      "description": "Designed a microservices architecture using .NET 9. Built three Vue 3 frontend applications. Established engineering processes in Azure DevOps."
+    },
+    {
+      "company": "Siteware",
+      "role": "Mid Software Engineer",
+      "startDate": "2024-03",
+      "endDate": "2024-09",
+      "description": "Backend development with ASP.NET Core, monolithic and microservice architecture, and tenant automation using Python."
+    },
+    {
+      "company": "Siteware",
+      "role": "Junior Software Engineer",
+      "startDate": "2022-11",
+      "endDate": "2024-03",
+      "description": "Backend development with ASP.NET Core, database modeling with SQL Server, and applying SOLID principles and TDD."
+    },
+    {
+      "company": "Rehagro",
+      "role": "Software Developer Trainee",
+      "startDate": "2022-06",
+      "endDate": "2022-11",
+      "description": "Developed solutions for analysis software using PHP/Laravel and Vue.js."
+    },
+    {
+      "company": "Rehagro",
+      "role": "Software Developer Intern",
+      "startDate": "2021-11",
+      "endDate": "2022-06",
+      "description": "Created a service desk system using PHP/Laravel and React.js."
+    },
+    {
+      "company": "AGROSB",
+      "role": "Infrastructure IT Intern",
+      "startDate": "2021-05",
+      "endDate": "2021-11",
+      "description": "IT support, asset management, and hardware maintenance."
     }
   ],
   "education": [
     {
-      "school": "University of Tech",
-      "degree": "B.S. Computer Science",
-      "startDate": "2016-09",
-      "endDate": "2020-05"
+      "school": "FIAP",
+      "degree": "Postgrad. Specialization, Software Architecture",
+      "startDate": "2023-08",
+      "endDate": "2024-08"
+    },
+    {
+      "school": "ULBRA",
+      "degree": "Bachelor of Computer Science",
+      "startDate": "2018",
+      "endDate": "2023"
     }
   ],
   "extras": [
     {
-      "title": "Open Source Contributor",
-      "description": "Contributed to various React libraries.",
-      "tags": ["React", "Open Source"]
+      "title": "Key Strengths & Skills",
+      "description": "Backend development (C#/.NET), TDD, Software Architecture, Microservices, Azure Cloud, CI/CD, and Frontend (Vue/React).",
+      "tags": ["C#", ".NET", "TDD", "Azure", "Microservices", "System Design"]
+    },
+    {
+      "title": "BurgerRoyale.Payment",
+      "description": "API solution for managing order payments, demonstrating clean architecture.",
+      "tags": ["C#", "API", "Payment"]
+    },
+    {
+      "title": "storageMailNotifier",
+      "description": ".NET application that triggers email notifications on Azure Blob Storage uploads.",
+      "tags": ["C#", ".NET", "Azure Functions"]
+    },
+    {
+      "title": "lattes-data-extraction-api",
+      "description": "ETL API built with .NET 7 for academic research data.",
+      "tags": ["C#", ".NET 7", "ETL"]
+    },
+    {
+      "title": "Community Writing",
+      "description": "Active writer on Dev.to and TabNews regarding Software Architecture and Career Growth.",
+      "tags": ["Writing", "Community"]
     }
   ]
 }
