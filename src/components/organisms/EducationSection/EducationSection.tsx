@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '../../atoms/Typography/Typography';
 import TimelineEntry from '../../molecules/TimelineEntry/TimelineEntry';
-import { Education } from '@/models/types';
+import { Education } from '@/models';
 import styles from '../Section.module.css';
 
 interface EducationSectionProps {

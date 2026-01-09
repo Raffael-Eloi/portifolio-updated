@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from '../../atoms/Typography/Typography';
 import TimelineEntry from '../../molecules/TimelineEntry/TimelineEntry';
-import { Experience } from '@/models/types';
+import { Experience } from '@/models';
 import styles from '../Section.module.css';
 
 interface ExperienceSectionProps {

@@ -1,4 +1,4 @@
-import { PortfolioData } from '@/models/types';
+import { PortfolioData } from '@/models';
 import portfolioData from '@/data/portfolio.json';
 
 export const getPortfolioData = (): PortfolioData => {

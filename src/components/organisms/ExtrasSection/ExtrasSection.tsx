@@ -2,7 +2,7 @@ import React from 'react';
 import Typography from '../../atoms/Typography/Typography';
 import Card from '../../atoms/Card/Card';
 import Tag from '../../atoms/Tag/Tag';
-import { Extra } from '@/models/types';
+import { Extra } from '@/models';
 import styles from '../Section.module.css';
 import extraStyles from './ExtrasSection.module.css';
 

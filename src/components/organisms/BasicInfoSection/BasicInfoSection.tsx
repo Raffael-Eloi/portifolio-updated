@@ -3,7 +3,7 @@ import Typography from '../../atoms/Typography/Typography';
 import InfoItem from '../../molecules/InfoItem/InfoItem';
 import { Mail, Linkedin, Github } from 'lucide-react';
 import styles from './BasicInfoSection.module.css';
-import { BasicInfo } from '@/models/types';
+import { BasicInfo } from '@/models';
 import Card from '../../atoms/Card/Card';
 
 interface BasicInfoSectionProps {
