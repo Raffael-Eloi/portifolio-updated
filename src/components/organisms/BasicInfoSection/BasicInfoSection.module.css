@@ -1,4 +1,4 @@
-.hero {
+.basicInfo {
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.hero::before {
+.basicInfo::before {
   content: '';
   position: absolute;
   top: 20%;
@@ -21,7 +21,7 @@
   z-index: -1;
 }
 
-.hero::after {
+.basicInfo::after {
   content: '';
   position: absolute;
   bottom: 20%;

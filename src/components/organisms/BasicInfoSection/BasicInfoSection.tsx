@@ -2,17 +2,17 @@ import React from 'react';
 import Typography from '../../atoms/Typography/Typography';
 import InfoItem from '../../molecules/InfoItem/InfoItem';
 import { Mail, Linkedin, Github } from 'lucide-react';
-import styles from './Hero.module.css';
+import styles from './BasicInfoSection.module.css';
 import { BasicInfo } from '@/models/types';
 import Card from '../../atoms/Card/Card';
 
-interface HeroProps {
+interface BasicInfoSectionProps {
   data: BasicInfo;
 }
 
-const Hero: React.FC<HeroProps> = ({ data }) => {
+const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.basicInfo}>
       <div className={styles.content}>
         <Typography variant="h1">{data.name}</Typography>
         <Typography variant="h2" className={styles.title}>{data.title}</Typography>
@@ -34,4 +34,4 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
   );
 };
 
-export default Hero;
+export default BasicInfoSection;
