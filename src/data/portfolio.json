@@ -1,0 +1,43 @@
+{
+  "basicInfo": {
+    "name": "Jane Doe",
+    "title": "Software Engineer",
+    "summary": "Full-stack developer with a passion for building beautiful and functional web applications.",
+    "contact": {
+      "email": "jane.doe@example.com",
+      "linkedin": "https://linkedin.com/in/janedoe",
+      "github": "https://github.com/janedoe"
+    }
+  },
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "role": "Senior Developer",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "description": "Leading the frontend team in rebuilding the core product."
+    },
+    {
+      "company": "StartUp Inc",
+      "role": "Frontend Developer",
+      "startDate": "2020-03",
+      "endDate": "2021-12",
+      "description": "Developed the MVP using React and Node.js."
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Tech",
+      "degree": "B.S. Computer Science",
+      "startDate": "2016-09",
+      "endDate": "2020-05"
+    }
+  ],
+  "extras": [
+    {
+      "title": "Open Source Contributor",
+      "description": "Contributed to various React libraries.",
+      "tags": ["React", "Open Source"]
+    }
+  ]
+}

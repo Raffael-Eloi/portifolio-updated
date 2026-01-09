@@ -1,0 +1,21 @@
+import React from 'react';
+import styles from './MainLayout.module.css';
+
+interface MainLayoutProps {
+  children: React.ReactNode;
+}
+
+const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
+  return (
+    <div className={styles.container}>
+      <main className={styles.main}>
+        {children}
+      </main>
+      <footer className={styles.footer}>
+        <p>© {new Date().getFullYear()} Portfolio. Built with Next.js</p>
+      </footer>
+    </div>
+  );
+};
+
+export default MainLayout;
