@@ -1,7 +1,7 @@
 import React from 'react';
-import Typography from '../../atoms/Typography/Typography';
-import Card from '../../atoms/Card/Card';
-import Tag from '../../atoms/Tag/Tag';
+import Typography from '../../common/Typography/Typography';
+import Card from '../../common/Card/Card';
+import Tag from '../../common/Tag/Tag';
 import { Extra } from '@/models';
 import styles from '../Section.module.css';
 import extraStyles from './ExtrasSection.module.css';

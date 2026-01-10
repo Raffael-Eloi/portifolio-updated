@@ -1,9 +1,9 @@
 import React from 'react';
-import MainLayout from '@/components/templates/MainLayout/MainLayout';
-import BasicInfoSection from '@/components/organisms/BasicInfoSection/BasicInfoSection';
-import ExperienceSection from '@/components/organisms/ExperienceSection/ExperienceSection';
-import EducationSection from '@/components/organisms/EducationSection/EducationSection';
-import ExtrasSection from '@/components/organisms/ExtrasSection/ExtrasSection';
+import MainLayout from '@/components/layout/MainLayout/MainLayout';
+import BasicInfoSection from '@/components/portfolio/BasicInfo/BasicInfoSection';
+import ExperienceSection from '@/components/portfolio/Experience/ExperienceSection';
+import EducationSection from '@/components/portfolio/Education/EducationSection';
+import ExtrasSection from '@/components/portfolio/Extras/ExtrasSection';
 import { getPortfolioData } from '@/services/portfolioService';
 
 export const metadata = {

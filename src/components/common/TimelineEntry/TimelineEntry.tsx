@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../../atoms/Card/Card';
-import Typography from '../../atoms/Typography/Typography';
+import Card from '../../common/Card/Card';
+import Typography from '../../common/Typography/Typography';
 import styles from './TimelineEntry.module.css';
 
 interface TimelineEntryProps {

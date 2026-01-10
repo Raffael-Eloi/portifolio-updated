@@ -1,10 +1,10 @@
 import React from 'react';
-import Typography from '../../atoms/Typography/Typography';
-import InfoItem from '../../molecules/InfoItem/InfoItem';
+import Typography from '../../common/Typography/Typography';
+import InfoItem from '../../common/InfoItem/InfoItem';
 import { Mail, Linkedin, Github } from 'lucide-react';
 import styles from './BasicInfoSection.module.css';
 import { BasicInfo } from '@/models';
-import Card from '../../atoms/Card/Card';
+import Card from '../../common/Card/Card';
 
 interface BasicInfoSectionProps {
   data: BasicInfo;

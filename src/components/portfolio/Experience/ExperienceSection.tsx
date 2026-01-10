@@ -1,6 +1,6 @@
 import React from 'react';
-import Typography from '../../atoms/Typography/Typography';
-import TimelineEntry from '../../molecules/TimelineEntry/TimelineEntry';
+import Typography from '../../common/Typography/Typography';
+import TimelineEntry from '../../common/TimelineEntry/TimelineEntry';
 import { Experience } from '@/models';
 import styles from '../Section.module.css';
 

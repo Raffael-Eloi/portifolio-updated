@@ -1,5 +1,5 @@
 import React from 'react';
-import Typography from '../../atoms/Typography/Typography';
+import Typography from '../../common/Typography/Typography';
 import styles from './InfoItem.module.css';
 import { LucideIcon } from 'lucide-react';
 
