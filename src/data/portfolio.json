@@ -15,64 +15,102 @@
       "role": "Software Engineer",
       "startDate": "2025-10",
       "endDate": "Present",
-      "description": "Building and maintaining seamless integrations between HungerRush’s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps."
+      "description": "Building and maintaining seamless integrations between HungerRush’s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps.",
+      "details": [
+        "Architected scalable backend services using .NET 8 and Azure Container Apps.",
+        "Integrated third-party delivery platforms reducing order failures by 15%.",
+        "Implemented improved logging and monitoring solutions using Azure Application Insights."
+      ]
     },
     {
       "company": "Velozient",
       "role": "Software Engineer",
       "startDate": "2024-08",
       "endDate": "Present",
-      "description": "Contributing to client projects like Mastrius and HungerRush. Working across backend and frontend systems, refactoring code, and ensuring continuous platform evolution."
+      "description": "Contributing to client projects like Mastrius and HungerRush. Working across backend and frontend systems, refactoring code, and ensuring continuous platform evolution.",
+      "details": [
+        "Refactored legacy codebases to modern .NET standards, improving maintainability.",
+        "Collaborated with cross-functional teams to deliver features on tight deadlines.",
+        "Provided technical guidance and code reviews for junior team members."
+      ]
     },
     {
       "company": "Mastrius",
       "role": "Software Engineer",
       "startDate": "2024-08",
       "endDate": "2025-10",
-      "description": "Designed a microservices architecture using .NET 9. Built three Vue 3 frontend applications. Established engineering processes in Azure DevOps."
+      "description": "Designed a microservices architecture using .NET 9. Built three Vue 3 frontend applications. Established engineering processes in Azure DevOps.",
+      "details": [
+        "Designing a robust Microservices Architecture using .NET 9.",
+        "Building three frontend applications using Vue 3 and TypeScript.",
+        "Establishing Engineering Processes and CI/CD pipelines in Azure DevOps."
+      ]
     },
     {
       "company": "Siteware",
       "role": "Mid Software Engineer",
       "startDate": "2024-03",
       "endDate": "2024-09",
-      "description": "Backend development with ASP.NET Core, monolithic and microservice architecture, and tenant automation using Python."
+      "description": "Backend development with ASP.NET Core, monolithic and microservice architecture, and tenant automation using Python.",
+      "details": [
+        "Backend development with ASP.NET Core (Monolithic and Microservice Architecture).",
+        "Tenant automation using Python scripts to streamline onboarding.",
+        "Optimized database queries in SQL Server for high-traffic endpoints."
+      ]
     },
     {
       "company": "Siteware",
       "role": "Junior Software Engineer",
       "startDate": "2022-11",
       "endDate": "2024-03",
-      "description": "Backend development with ASP.NET Core, database modeling with SQL Server, and applying SOLID principles and TDD."
+      "description": "Backend development with ASP.NET Core, database modeling with SQL Server, and applying SOLID principles and TDD.",
+      "details": [
+        "Backend development with ASP.NET Core.",
+        "Database modeling with SQL Server.",
+        "Applied SOLID principles and TDD to ensure code quality."
+      ]
     },
     {
       "company": "Rehagro",
       "role": "Software Developer Trainee",
       "startDate": "2022-06",
       "endDate": "2022-11",
-      "description": "Developed solutions for analysis software using PHP/Laravel and Vue.js."
+      "description": "Developed solutions for analysis software using PHP/Laravel and Vue.js.",
+      "details": [
+        "Developed features for soil analysis software using PHP/Laravel.",
+        "Built interactive frontend components with Vue.js.",
+        "Collaborated with agronomists to understand business requirements."
+      ]
     },
     {
       "company": "Rehagro",
       "role": "Software Developer Intern",
       "startDate": "2021-11",
       "endDate": "2022-06",
-      "description": "Created a service desk system using PHP/Laravel and React.js."
+      "description": "Created a service desk system using PHP/Laravel and React.js.",
+      "details": [
+        "Created a custom Service Desk system using PHP/Laravel and React.js.",
+        "Automated ticket routing workflows."
+      ]
     },
     {
       "company": "AGROSB",
       "role": "Infrastructure IT Intern",
       "startDate": "2021-05",
       "endDate": "2021-11",
-      "description": "IT support, asset management, and hardware maintenance."
+      "description": "IT support, asset management, and hardware maintenance.",
+      "details": [
+        "Provided IT support for 50+ employees.",
+        "Managed hardware assets and performed maintenance."
+      ]
     }
   ],
   "education": [
     {
       "school": "FIAP",
       "degree": "Postgrad. Specialization, Software Architecture",
-      "startDate": "2023-08",
-      "endDate": "2024-08"
+      "startDate": "2023",
+      "endDate": "2024"
     },
     {
       "school": "ULBRA",

@@ -4,4 +4,5 @@ export interface Experience {
   startDate: string;
   endDate: string;
   description: string;
+  details?: string[];
 }
