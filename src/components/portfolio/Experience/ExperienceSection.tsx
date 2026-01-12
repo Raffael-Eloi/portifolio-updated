@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '../../common/Typography/Typography';
 import TimelineEntry from '../../common/TimelineEntry/TimelineEntry';
 import { Experience } from '@/models';
+import { formatDate } from '@/utils/dateUtils';
 import styles from '../Section.module.css';
 
 interface ExperienceSectionProps {
@@ -18,7 +19,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data }) => {
             key={index}
             title={job.role}
             subtitle={job.company}
-            date={`${job.startDate} - ${job.endDate}`}
+            date={`${formatDate(job.startDate)} - ${formatDate(job.endDate)}`}
             description={job.description}
             details={job.details}
             skills={job.skills}

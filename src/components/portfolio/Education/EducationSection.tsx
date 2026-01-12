@@ -2,6 +2,7 @@ import React from 'react';
 import Typography from '../../common/Typography/Typography';
 import TimelineEntry from '../../common/TimelineEntry/TimelineEntry';
 import { Education } from '@/models';
+import { formatDate } from '@/utils/dateUtils';
 import styles from '../Section.module.css';
 
 interface EducationSectionProps {
@@ -18,7 +19,7 @@ const EducationSection: React.FC<EducationSectionProps> = ({ data }) => {
             key={index}
             title={edu.degree}
             subtitle={edu.school}
-            date={`${edu.startDate} - ${edu.endDate}`}
+            date={`${formatDate(edu.startDate)} - ${formatDate(edu.endDate)}`}
           />
         ))}
       </div>
