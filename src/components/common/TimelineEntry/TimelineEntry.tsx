@@ -5,7 +5,7 @@ import Card from '../../common/Card/Card';
 import Typography from '../../common/Typography/Typography';
 import styles from './TimelineEntry.module.css';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import Button from '../../common/Button/Button';
+import Tag from '../../common/Tag/Tag';
 
 interface TimelineEntryProps {
   title: string;
@@ -13,9 +13,10 @@ interface TimelineEntryProps {
   date: string;
   description?: string;
   details?: string[];
+  skills?: string[];
 }
 
-const TimelineEntry: React.FC<TimelineEntryProps> = ({ title, subtitle, date, description, details }) => {
+const TimelineEntry: React.FC<TimelineEntryProps> = ({ title, subtitle, date, description, details, skills }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
@@ -32,16 +33,27 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({ title, subtitle, date, de
         </div>
         {description && <Typography variant="p" className={styles.description}>{description}</Typography>}
         
-        {details && details.length > 0 && (
+        {(details || skills) && (
           <div className={styles.detailsContainer}>
             {isExpanded && (
-              <ul className={styles.detailsList}>
-                {details.map((detail, index) => (
-                  <li key={index} className={styles.detailItem}>
-                    <Typography variant="p">{detail}</Typography>
-                  </li>
-                ))}
-              </ul>
+              <>
+                {details && details.length > 0 && (
+                  <ul className={styles.detailsList}>
+                    {details.map((detail, index) => (
+                      <li key={index} className={styles.detailItem}>
+                        <Typography variant="p">{detail}</Typography>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {skills && skills.length > 0 && (
+                  <div className={styles.tagsContainer}>
+                    {skills.map((skill, index) => (
+                      <Tag key={index} label={skill} />
+                    ))}
+                  </div>
+                )}
+              </>
             )}
             <button 
               className={styles.expandButton}

@@ -20,7 +20,8 @@
         "Architected scalable backend services using .NET 8 and Azure Container Apps.",
         "Integrated third-party delivery platforms reducing order failures by 15%.",
         "Implemented improved logging and monitoring solutions using Azure Application Insights."
-      ]
+      ],
+      "skills": ["C#", ".NET 8", "Azure Container Apps", "SQL Server"]
     },
     {
       "company": "Velozient",
@@ -32,7 +33,8 @@
         "Refactored legacy codebases to modern .NET standards, improving maintainability.",
         "Collaborated with cross-functional teams to deliver features on tight deadlines.",
         "Provided technical guidance and code reviews for junior team members."
-      ]
+      ],
+      "skills": ["C#", ".NET", "Vue.js", "Azure DevOps"]
     },
     {
       "company": "Mastrius",
@@ -44,7 +46,8 @@
         "Designing a robust Microservices Architecture using .NET 9.",
         "Building three frontend applications using Vue 3 and TypeScript.",
         "Establishing Engineering Processes and CI/CD pipelines in Azure DevOps."
-      ]
+      ],
+      "skills": [".NET 9", "Microservices", "Vue 3", "TypeScript", "Azure DevOps"]
     },
     {
       "company": "Siteware",
@@ -56,7 +59,8 @@
         "Backend development with ASP.NET Core (Monolithic and Microservice Architecture).",
         "Tenant automation using Python scripts to streamline onboarding.",
         "Optimized database queries in SQL Server for high-traffic endpoints."
-      ]
+      ],
+      "skills": ["ASP.NET Core", "Python", "SQL Server", "Microservices"]
     },
     {
       "company": "Siteware",
@@ -68,7 +72,8 @@
         "Backend development with ASP.NET Core.",
         "Database modeling with SQL Server.",
         "Applied SOLID principles and TDD to ensure code quality."
-      ]
+      ],
+      "skills": ["ASP.NET Core", "SQL Server", "TDD", "SOLID"]
     },
     {
       "company": "Rehagro",
@@ -80,7 +85,8 @@
         "Developed features for soil analysis software using PHP/Laravel.",
         "Built interactive frontend components with Vue.js.",
         "Collaborated with agronomists to understand business requirements."
-      ]
+      ],
+      "skills": ["PHP", "Laravel", "Vue.js", "MySQL"]
     },
     {
       "company": "Rehagro",
@@ -91,7 +97,8 @@
       "details": [
         "Created a custom Service Desk system using PHP/Laravel and React.js.",
         "Automated ticket routing workflows."
-      ]
+      ],
+      "skills": ["PHP", "Laravel", "React.js"]
     },
     {
       "company": "AGROSB",
@@ -102,7 +109,8 @@
       "details": [
         "Provided IT support for 50+ employees.",
         "Managed hardware assets and performed maintenance."
-      ]
+      ],
+      "skills": ["IT Support", "Hardware"]
     }
   ],
   "education": [

@@ -78,6 +78,14 @@
   color: var(--color-text-secondary);
 }
 
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
 .expandButton {
   background: none;
   border: none;

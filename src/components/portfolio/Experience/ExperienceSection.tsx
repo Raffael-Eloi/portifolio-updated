@@ -21,6 +21,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data }) => {
             date={`${job.startDate} - ${job.endDate}`}
             description={job.description}
             details={job.details}
+            skills={job.skills}
           />
         ))}
       </div>
