@@ -28,7 +28,12 @@
                 ".NET",
                 "Azure Container Apps",
                 "SQL Server",
-                "Service Bus"
+                "Service Bus",
+                "Datadog",
+                "Azure Functions",
+                "APIM",
+                "CI/CD",
+                "TDD"
             ]
         },
         {
@@ -61,7 +66,11 @@
                 "Azure DevOps",
                 "Vuetify",
                 "Azure",
-                "SQL Server"
+                "SQL Server",
+                "TDD",
+                "SQL",
+                "Entity Framework",
+                "CI/CD"
             ]
         },
         {
@@ -78,11 +87,16 @@
                 "Maintenance in the legacy codebase responsible for the corporate performance module."
             ],
             "skills": [
+                ".NET Framework",
                 "ASP.NET Core",
                 "TDD",
                 "BDD",
                 "SQL Server",
-                "Microservices"
+                "Monolith",
+                "Entity Framework",
+                "CI/CD",
+                "jQuery",
+                "Azure Functions"
             ]
         },
         {
@@ -103,7 +117,24 @@
                 "Database modeling utilizing SQL Server.",
                 "Application deploymentDevelopment."
             ],
-            "skills": [".NET", "SQL Server", "TDD", "Python"]
+            "skills": [
+                ".NET",
+                "SQL Server",
+                "TDD",
+                "Python",
+                "SQL",
+                "Microservices",
+                "Entity Framework",
+                "CI/CD",
+                "Typescript",
+                "Integration Tests",
+                "Azure Cosmos DB",
+                "jQuery",
+                "Azure Functions",
+                "DDD",
+                "NoSQL",
+                "Kubernetes"
+            ]
         },
         {
             "company": "Rehagro",
@@ -119,7 +150,15 @@
                 "Version control using GIT.",
                 "SCRUM as agile methodology."
             ],
-            "skills": ["PHP", "Laravel", "Vue.js", "PostgreSQL"]
+            "skills": [
+                "PHP",
+                "Laravel",
+                "Vue.js",
+                "PostgreSQL",
+                "JavaScript",
+                "SQL",
+                "Design Patterns"
+            ]
         },
         {
             "company": "Rehagro",
@@ -135,7 +174,14 @@
                 "Version control using GIT.",
                 "SCRUM as agile methodology."
             ],
-            "skills": ["PHP", "Laravel", "React.js", "MySQL"]
+            "skills": [
+                "PHP",
+                "Laravel",
+                "React.js",
+                "SQL",
+                "MySQL",
+                "JavaScript"
+            ]
         },
         {
             "company": "AGROSB",
