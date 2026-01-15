@@ -221,8 +221,14 @@
                 "TDD",
                 "Azure",
                 "Microservices",
-                "System Design"
+                "System Design",
+                "CI/CD"
             ]
+        },
+        {
+            "title": "Community Writing",
+            "description": "Active writer on Dev.to and Medium regarding Software Architecture and Career Growth.",
+            "tags": ["Writing", "Community"]
         },
         {
             "title": "BurgerRoyale.Payment",
@@ -238,11 +244,6 @@
             "title": "lattes-data-extraction-api",
             "description": "ETL API built with .NET 7 for academic research data.",
             "tags": ["C#", ".NET 7", "ETL"]
-        },
-        {
-            "title": "Community Writing",
-            "description": "Active writer on Dev.to and TabNews regarding Software Architecture and Career Growth.",
-            "tags": ["Writing", "Community"]
         }
     ]
 }
