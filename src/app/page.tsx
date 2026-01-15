@@ -1,10 +1,10 @@
-import HomePage from '@/components/pages/HomePage';
+import HomePage from "@/components/pages/HomePage";
 
 export const metadata = {
-  title: 'Portfolio',
-  description: 'My Professional Portfolio',
+    title: "Raffael Eloi",
+    description: "My Professional Portfolio",
 };
 
 export default function Page() {
-  return <HomePage />;
+    return <HomePage />;
 }
