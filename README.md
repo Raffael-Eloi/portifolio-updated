@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Personal Portfolio — Built with Next.js
 
-## Getting Started
+### 💻 You can access the page [here](https://raffaeleloi.dev)
 
-First, run the development server:
+### 📌 Short Description
+
+This is my personal developer portfolio built with **Next.js**, **TypeScript**, and modern web tooling — designed to showcase my professional experience, skills, projects, and passion for software engineering.
+
+What makes this project special is **how it was built**: as part of a journey to learn and experiment with emerging AI-driven development tools like **Antigravity AI** and to push my own understanding of modern frontend workflows. I explored AI-guided architecture planning, iterative design decisions, and real-world deployment — all while emphasizing clean code, scalability, and a thoughtful user experience. <br/>
+Check it out the article on the dev.to website: [Creating my portfolio with Antigravity AI](https://dev.to/raffaeleloi/creating-my-portfolio-with-antigravity-ai-40pe)
+
+### 📄 What’s Inside
+
+* **Next.js (App Router)**: Framework powering a fast, SEO-friendly portfolio.
+* **TypeScript**: For type safety and maintainable code.
+* **Modular UI**: Component-based structure with clear separation of concerns.
+* **Responsive Design**: Works beautifully across screen sizes.
+* **Future-Ready Architecture**: Easy to expand with new sections, APIs, or dynamic content.
+
+### 🔧 Get Started
 
 ```bash
+# install dependencies
+npm install
+
+# run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🌐 Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Perfectly deployable on platforms like Vercel or Google Cloud Run.
