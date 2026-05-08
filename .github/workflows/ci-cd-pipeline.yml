@@ -17,7 +17,15 @@ jobs:
               uses: actions/setup-node@v4.0.2
               with:
                   node-version: "25.2.1"
-            - run: npm install
+            - run: |
+                  npm install
+                  npm run build
+
+            - name: Upload build artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: static-out
+                  path: out/
 
     tests:
         name: Unit Tests
@@ -71,7 +79,7 @@ jobs:
                   path: infrastructure/tfplan
 
     terraform_apply:
-        name: Terraform Apply
+        name: Terraform Apply and Deploy
         runs-on: ubuntu-latest
         needs: terraform_plan
         environment: production
@@ -107,3 +115,27 @@ jobs:
               run: |
                   cd infrastructure
                   terraform apply -auto-approve tfplan
+
+            - name: Download build artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: static-out
+                  path: out/
+
+            - name: Get API token and deploy
+              run: |
+                  cd infrastructure
+                  API_KEY=$(terraform output -raw web_app_api_key)
+                  echo "::add-mask::$API_KEY"
+                  echo "SWA_API_KEY=$API_KEY" >> $GITHUB_ENV
+
+            - name: Build And Deploy
+              uses: Azure/static-web-apps-deploy@v1
+              with:
+                  azure_static_web_apps_api_token: ${{ env.SWA_API_KEY }}
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  action: "upload"
+                  app_location: "/"
+                  api_location: ""
+                  output_location: "out"
+                  skip_app_build: true
