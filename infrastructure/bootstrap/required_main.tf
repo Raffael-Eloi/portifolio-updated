@@ -20,6 +20,7 @@ terraform {
 # Resource provider registration is managed outside Terraform to limit required RBAC permissions.
 provider "azurerm" {
   resource_provider_registrations = "none"
+  subscription_id                 = var.subscription_id
   features {}
 }
 
