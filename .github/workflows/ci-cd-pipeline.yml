@@ -21,7 +21,7 @@ jobs:
             - name: Setup Node.js environmen
               uses: actions/setup-node@v6
               with:
-                  node-version: "25.2.1"
+                  node-version: "24"
             - run: |
                   npm install
                   npm run build
