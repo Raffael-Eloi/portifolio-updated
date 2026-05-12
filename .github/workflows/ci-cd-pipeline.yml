@@ -16,7 +16,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Setup Node.js environmen
               uses: actions/setup-node@v6
@@ -27,7 +27,7 @@ jobs:
                   npm run build
 
             - name: Upload build artifact
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
                   name: static-out
                   path: out/
@@ -39,7 +39,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
             - run: |
                   npm install
                   npm run test
@@ -51,7 +51,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Azure login
               uses: azure/login@v3
@@ -78,7 +78,7 @@ jobs:
                   terraform plan -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}" -out=tfplan
 
             - name: Upload plan artifact
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
                   name: tfplan
                   path: infrastructure/tfplan
@@ -91,7 +91,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Azure login
               uses: azure/login@v3
@@ -111,7 +111,7 @@ jobs:
                   terraform init
 
             - name: Download plan artifact
-              uses: actions/download-artifact@v4
+              uses: actions/download-artifact@v8
               with:
                   name: tfplan
                   path: infrastructure/
@@ -122,7 +122,7 @@ jobs:
                   terraform apply -auto-approve tfplan
 
             - name: Download build artifact
-              uses: actions/download-artifact@v4
+              uses: actions/download-artifact@v8
               with:
                   name: static-out
                   path: out/
