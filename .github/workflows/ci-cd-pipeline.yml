@@ -75,7 +75,7 @@ jobs:
             - name: Terraform plan
               run: |
                   cd infrastructure
-                  terraform plan -out=tfplan
+                  terraform plan -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}" -out=tfplan
 
             - name: Upload plan artifact
               uses: actions/upload-artifact@v4
