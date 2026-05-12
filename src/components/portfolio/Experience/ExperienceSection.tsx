@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "../../common/Typography/Typography";
-import TimelineEntry from "../../common/TimelineEntry/TimelineEntry";
+import TimelineEntry from "../TimelineEntry/TimelineEntry";
 import { Experience } from "@/models";
 import { formatDate } from "@/utils/dateUtils";
 import styles from "../Section.module.css";
@@ -23,7 +23,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ data }) => {
                             job.endDate
                         )}`}
                         description={job.description}
-                        roleResponsability={job.roleResponsability}
+                        roleResponsibility={job.roleResponsibility}
                         details={job.details}
                         skills={job.skills}
                     />

@@ -11,7 +11,7 @@ interface TimelineEntryProps {
     subtitle: string;
     date: string;
     description?: string;
-    roleResponsability?: string;
+    roleResponsibility?: string;
     details?: string[];
     skills?: string[];
 }
@@ -21,7 +21,7 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({
     subtitle,
     date,
     description,
-    roleResponsability,
+    roleResponsibility,
     details,
     skills,
 }) => {
@@ -48,15 +48,15 @@ const TimelineEntry: React.FC<TimelineEntryProps> = ({
                         {description}
                     </Typography>
                 )}
-                {roleResponsability && (
-                    <Typography variant="h4">My responsabilities:</Typography>
+                {roleResponsibility && (
+                    <Typography variant="h4">My responsibilities:</Typography>
                 )}
-                {roleResponsability && (
+                {roleResponsibility && (
                     <Typography
                         variant="p"
-                        className={styles.roleResponsability}
+                        className={styles.roleResponsibility}
                     >
-                        {roleResponsability}
+                        {roleResponsibility}
                     </Typography>
                 )}
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '../../common/Typography/Typography';
-import TimelineEntry from '../../common/TimelineEntry/TimelineEntry';
+import TimelineEntry from '../TimelineEntry/TimelineEntry';
 import { Education } from '@/models';
 import { formatDate } from '@/utils/dateUtils';
 import styles from '../Section.module.css';

@@ -4,7 +4,7 @@ export interface Experience {
   startDate: string;
   endDate: string;
   description: string;
-  roleResponsability: string;
+  roleResponsibility: string;
   details?: string[];
   skills?: string[];
 }

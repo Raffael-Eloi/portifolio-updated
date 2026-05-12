@@ -15,7 +15,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Azure login
               uses: azure/login@v3
@@ -42,7 +42,7 @@ jobs:
                   terraform plan -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}" -out=bootstrap.tfplan
 
             - name: Upload plan artifact
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
                   name: bootstrap-tfplan
                   path: infrastructure/bootstrap/bootstrap.tfplan
@@ -55,7 +55,7 @@ jobs:
 
         steps:
             - name: Checkout code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
 
             - name: Azure login
               uses: azure/login@v3
@@ -75,7 +75,7 @@ jobs:
                   terraform init
 
             - name: Download plan artifact
-              uses: actions/download-artifact@v4
+              uses: actions/download-artifact@v8
               with:
                   name: bootstrap-tfplan
                   path: infrastructure/bootstrap/

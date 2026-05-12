@@ -2,7 +2,7 @@
     "basicInfo": {
         "name": "Raffael Eloi",
         "title": "Software Engineer | Software Architect",
-        "summary": "I’m a Software Engineer with a strong focus on backend development and software architecture, and I also have solid experience delivering end-to-end solutions across both backend and frontend. My work is centered on building, maintaining, and evolving scalable backend systems, with a strong emphasis on clean code, SOLID principles, and long-term maintainability. Outside of work, I enjoy hands-on projects, studying, and going deeper into software engineering topics. I also value spending time in nature and staying away from social media.",
+        "summary": "I'm a Software Engineer with a strong focus on backend development and software architecture, and I also have solid experience delivering end-to-end solutions across both backend and frontend. My work is centered on building, maintaining, and evolving scalable backend systems, with a strong emphasis on clean code, SOLID principles, and long-term maintainability. Outside of work, I enjoy hands-on projects, studying, and going deeper into software engineering topics. I also value spending time in nature and staying away from social media.",
         "contact": {
             "email": "raffaeleloi121@gmail.com",
             "linkedin": "https://linkedin.com/in/raffael-eloi",
@@ -16,7 +16,7 @@
             "startDate": "2025-10",
             "endDate": "Present",
             "description": "HungerRush is a leading restaurant technology company that powers thousands of restaurants across the U.S. with end-to-end solutions for POS, online ordering, delivery, payments, and guest engagement. The platform handles a high volume of transactions and integrations daily, connecting restaurants with major third-party delivery and ordering ecosystems.",
-            "roleResponsability": "Building and maintaining seamless integrations between HungerRush’s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps.",
+            "roleResponsibility": "Building and maintaining seamless integrations between HungerRushâ€™s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps.",
             "details": [
                 "Designing, developing, and maintaining backend services that power external integrations.",
                 "Adding new partner integrations and evolving existing ones as APIs and business rules change.",
@@ -42,7 +42,7 @@
             "startDate": "2024-08",
             "endDate": "Present",
             "description": "Velozient is a technology consulting and engineering firm that partners with companies to design, build, and evolve modern, scalable software solutions. The company provides experienced engineers who work closely with client teams to deliver high-quality systems across different industries.",
-            "roleResponsability": "I work as a Software Engineer contractor through Velozient, contributing to client projects such as Mastrius and currently HungerRush. My work spans both backend and frontend applications, collaborating closely with client teams on system development, maintenance, refactoring, and continuous platform evolution."
+            "roleResponsibility": "I work as a Software Engineer contractor through Velozient, contributing to client projects such as Mastrius and currently HungerRush. My work spans both backend and frontend applications, collaborating closely with client teams on system development, maintenance, refactoring, and continuous platform evolution."
         },
         {
             "company": "Mastrius",
@@ -50,12 +50,12 @@
             "startDate": "2024-08",
             "endDate": "2025-10",
             "description": "Mastrius is an online mentorship platform and creative community that connects growing artists with experienced master artists for live, interactive mentorship and guided learning. It offers small group sessions, workshops, and personalized feedback designed to help artists refine their skills, find their voice, and accelerate their artistic growth in a supportive, collaborative environment.",
-            "roleResponsability": "Joined a small tech team tasked with stabilizing and maintaining legacy systems built with older versions of .NET and Vue, while simultaneously designing and developing a new scalable platform",
+            "roleResponsibility": "Joined a small tech team tasked with stabilizing and maintaining legacy systems built with older versions of .NET and Vue, while simultaneously designing and developing a new scalable platform",
             "details": [
                 "Established engineering processes in Azure DevOps, including feature tracking, code reviews, and CI/CD pipelines to automate builds, testing, and deployments.",
                 "Designed and implemented a new microservices-based architecture using .NET 9, Entity Framework, SQL Server, and ElasticSearch, supporting modularity and scalability across services.",
                 "Built three new front-end applications with Vue 3 (Composition API), TypeScript, and Vuetify following an MVVM-style separation of components, controllers, and models.",
-                "Contributed to architectural decisions that balanced migrating legacy systems with building new platforms, supporting the company’s long-term growth strategy.",
+                "Contributed to architectural decisions that balanced migrating legacy systems with building new platforms, supporting the companyâ€™s long-term growth strategy.",
                 "Designed software aligned with SOLID principles and Clean Architecture, resulting in maintainable and scalable systems."
             ],
             "skills": [
@@ -79,7 +79,7 @@
             "startDate": "2024-03",
             "endDate": "2024-09",
             "description": "Siteware is a company specializing in strategic performance and management software, helping organizations turn data into clear insights and results",
-            "roleResponsability": "Development of solutions for monitoring a business management system to monitor corporate performance",
+            "roleResponsibility": "Development of solutions for monitoring a business management system to monitor corporate performance",
             "details": [
                 "Back-end development using C# with ASP.NET Core and .NET Core frameworks.",
                 "Use of TDD as core practice and daily development practice.",
@@ -105,7 +105,7 @@
             "startDate": "2022-11",
             "endDate": "2024-03",
             "description": "Siteware is a company specializing in strategic performance and management software, helping organizations turn data into clear insights and results",
-            "roleResponsability": "Development of solutions for monitoring a business management system to monitor corporate performance",
+            "roleResponsibility": "Development of solutions for monitoring a business management system to monitor corporate performance",
             "details": [
                 "Participation in the architectural decisions about the modules and implementation of migration to microservices and modular monolith.",
                 "Back-end development using C# with ASP.NET Core and .NET Core frameworks.",
@@ -142,7 +142,7 @@
             "startDate": "2022-06",
             "endDate": "2022-11",
             "description": "Rehagro is a Brazilian agribusiness education and consulting company with more than 20 years of experience helping producers and professionals achieve better results in rural management and agricultural production.",
-            "roleResponsability": "Development and maintenance of solutions conducted for soil, water, chemistry, NIRS and process analysis software, report issuance and laboratory management through a web system.",
+            "roleResponsibility": "Development and maintenance of solutions conducted for soil, water, chemistry, NIRS and process analysis software, report issuance and laboratory management through a web system.",
             "details": [
                 "Back-end development using PHP with Laravel.",
                 "Database modeling using PostgreSQL.",
@@ -166,7 +166,7 @@
             "startDate": "2021-11",
             "endDate": "2022-06",
             "description": "Rehagro is a Brazilian agribusiness education and consulting company with more than 20 years of experience helping producers and professionals achieve better results in rural management and agricultural production.",
-            "roleResponsability": "Complete creation of a service desk system for the internal use of the company's employees",
+            "roleResponsibility": "Complete creation of a service desk system for the internal use of the company's employees",
             "details": [
                 "Database modeling using MySQL.",
                 "Front-end development using JavaScript with React.js.",
@@ -189,7 +189,7 @@
             "startDate": "2021-05",
             "endDate": "2021-11",
             "description": "AgroSB is a Brazilian agribusiness company specializing in integrated crop and livestock production, sustainable land development, and modern farming practices.",
-            "roleResponsability": "Performed support activities for users in person and remotely through TeamViewer software, management of company assets through SysAid Software, maintenance on notebooks and computers, purchase or service requests and queries in Senior ERP and service calls through SysAid",
+            "roleResponsibility": "Performed support activities for users in person and remotely through TeamViewer software, management of company assets through SysAid Software, maintenance on notebooks and computers, purchase or service requests and queries in Senior ERP and service calls through SysAid",
             "details": [
                 "Provided IT support for 50+ employees.",
                 "Managed hardware assets and performed maintenance."

@@ -13,5 +13,6 @@ export const formatDate = (dateString: string): string => {
   return new Intl.DateTimeFormat('en-US', {
     month: 'short',
     year: 'numeric',
+    timeZone: 'UTC',
   }).format(date);
 };

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(npm list *)",
+      "WebSearch",
+      "Bash(\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" run build)",
+      "Bash(echo \"BUILD_EXIT:$?\")",
+      "Bash(\"C:\\\\Program Files\\\\nodejs\\\\npm.cmd\" test)",
+      "Bash(echo \"TEST_EXIT:$?\")"
+    ]
+  }
+}
