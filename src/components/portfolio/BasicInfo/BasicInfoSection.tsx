@@ -16,10 +16,6 @@ const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
       <div className={styles.content}>
         <Typography variant="h1">{data.name}</Typography>
         <Typography variant="h2" className={styles.title}>{data.title}</Typography>
-        <Card className={styles.summaryCard}>
-            <Typography variant="p" className={styles.summary}>{data.summary}</Typography>
-        </Card>
-        
         <div className={styles.contacts}>
           <InfoItem icon={Mail} label="Email" value={data.contact.email} link={`mailto:${data.contact.email}`} />
           {data.contact.linkedin && (
@@ -29,6 +25,10 @@ const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
              <InfoItem icon={Github} label="GitHub" value="Raffael-Eloi" link={data.contact.github} />
           )}
         </div>
+
+        <Card className={styles.summaryCard}>
+            <Typography variant="p" className={styles.summary}>{data.summary}</Typography>
+        </Card>
       </div>
     </section>
   );
