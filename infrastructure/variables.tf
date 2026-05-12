@@ -1,3 +1,8 @@
+variable "subscription_id" {
+  type        = string
+  description = "Azure subscription ID."
+}
+
 variable "project" {
   type        = string
   default     = "portfolio"
