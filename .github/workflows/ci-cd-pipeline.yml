@@ -127,20 +127,20 @@ jobs:
                   name: static-out
                   path: out/
 
-            - name: Get API token and deploy
+            - name: Get API token
               run: |
                   cd infrastructure
                   API_KEY=$(terraform output -raw web_app_api_key)
                   echo "::add-mask::$API_KEY"
                   echo "SWA_API_KEY=$API_KEY" >> $GITHUB_ENV
 
-            - name: Build And Deploy
+            - name: Deploy
               uses: Azure/static-web-apps-deploy@v1
               with:
                   azure_static_web_apps_api_token: ${{ env.SWA_API_KEY }}
                   repo_token: ${{ secrets.GITHUB_TOKEN }}
                   action: "upload"
-                  app_location: "/"
+                  app_location: "out"
                   api_location: ""
-                  output_location: "out"
+                  output_location: ""
                   skip_app_build: true
