@@ -17,7 +17,6 @@ terraform {
   }
 }
 
-# Resource provider registration is managed outside Terraform to limit required RBAC permissions.
 provider "azurerm" {
   resource_provider_registrations = "none"
   subscription_id                 = var.subscription_id
@@ -35,6 +34,10 @@ resource "azurerm_management_lock" "rg_lock" {
   scope      = azurerm_resource_group.raffa_lab_rg.id
   lock_level = "CanNotDelete"
   notes      = "Prevents accidental deletion of the portfolio resource group."
+}
+
+resource "azurerm_resource_provider_registration" "storage" {
+  name = "Microsoft.Storage"
 }
 
 resource "azurerm_storage_account" "storage_account" {
