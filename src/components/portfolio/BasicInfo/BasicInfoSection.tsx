@@ -23,10 +23,10 @@ const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
         <div className={styles.contacts}>
           <InfoItem icon={Mail} label="Email" value={data.contact.email} link={`mailto:${data.contact.email}`} />
           {data.contact.linkedin && (
-             <InfoItem icon={Linkedin} label="LinkedIn" value="Profile" link={data.contact.linkedin} />
+             <InfoItem icon={Linkedin} label="LinkedIn" value="Raffael Eloi" link={data.contact.linkedin} />
           )}
           {data.contact.github && (
-             <InfoItem icon={Github} label="GitHub" value="Profile" link={data.contact.github} />
+             <InfoItem icon={Github} label="GitHub" value="Raffael-Eloi" link={data.contact.github} />
           )}
         </div>
       </div>
