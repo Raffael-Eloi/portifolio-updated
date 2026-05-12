@@ -27,7 +27,9 @@ const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
         </div>
 
         <Card className={styles.summaryCard}>
-            <Typography variant="p" className={styles.summary}>{data.summary}</Typography>
+            {data.summary.split('\n\n').map((paragraph, i) => (
+                <Typography key={i} variant="p" className={styles.summary}>{paragraph}</Typography>
+            ))}
         </Card>
       </div>
     </section>

@@ -49,10 +49,16 @@
 .summaryCard {
   margin-bottom: 3rem;
   text-align: left;
+  border-left: 3px solid var(--accent-primary);
 }
 
 .summary {
   font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+.summary:last-child {
   margin-bottom: 0;
 }
 
