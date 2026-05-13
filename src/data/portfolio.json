@@ -6,7 +6,9 @@
         "contact": {
             "email": "raffaeleloi121@gmail.com",
             "linkedin": "https://linkedin.com/in/raffael-eloi",
-            "github": "https://github.com/Raffael-Eloi"
+            "github": "https://github.com/Raffael-Eloi",
+            "devto": "https://dev.to/raffaeleloi",
+            "medium": "https://medium.com/@raffaeleloi"
         }
     },
     "experience": [
@@ -209,41 +211,6 @@
             "degree": "Bachelor of Computer Science",
             "startDate": "2018",
             "endDate": "2023"
-        }
-    ],
-    "extras": [
-        {
-            "title": "Key Strengths & Skills",
-            "description": "Backend development (C#/.NET), TDD, Software Architecture, Microservices, Azure Cloud, CI/CD, and Frontend (Vue/React).",
-            "tags": [
-                "C#",
-                ".NET",
-                "TDD",
-                "Azure",
-                "Microservices",
-                "System Design",
-                "CI/CD"
-            ]
-        },
-        {
-            "title": "Community Writing",
-            "description": "Active writer on Dev.to and Medium regarding Software Architecture and Career Growth.",
-            "tags": ["Writing", "Community"]
-        },
-        {
-            "title": "BurgerRoyale.Payment",
-            "description": "API solution for managing order payments, demonstrating clean architecture.",
-            "tags": ["C#", "API", "Payment"]
-        },
-        {
-            "title": "storageMailNotifier",
-            "description": ".NET application that triggers email notifications on Azure Blob Storage uploads.",
-            "tags": ["C#", ".NET", "Azure Functions"]
-        },
-        {
-            "title": "lattes-data-extraction-api",
-            "description": "ETL API built with .NET 7 for academic research data.",
-            "tags": ["C#", ".NET 7", "ETL"]
         }
     ]
 }
