@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "main" {
-  name     = "RaffaLabRG"
+  name     = "rg-${var.application_name}-${var.environment_name}"
   location = var.region
   tags     = local.tags
 }
