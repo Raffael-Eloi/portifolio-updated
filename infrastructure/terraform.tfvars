@@ -1,4 +1,4 @@
-region           = "westus3"
+region           = "East US 2"
 application_name = "portfolio"
 owner            = "raffael-eloi"
 managed_by       = "terraform"
