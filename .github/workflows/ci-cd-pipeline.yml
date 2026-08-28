@@ -75,7 +75,7 @@ jobs:
               run: |
                   cd infrastructure
                   terraform fmt -check -recursive
-                  terraform init
+                  terraform init -backend-config="env/azurerm-config-development.tfbackend"
                   terraform validate
 
             - name: Terraform plan
