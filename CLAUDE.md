@@ -23,7 +23,7 @@ npx jest src/__tests__/Home.test.tsx
 
 ## Architecture
 
-This is a **Next.js 16 static-export portfolio** (React 19, TypeScript 5). `next.config.ts` sets `output: "export"`, so `npm run build` produces a static `out/` directory served by Nginx via Docker.
+This is a **Next.js 16 static-export portfolio** (React 19, TypeScript 5). `next.config.ts` sets `output: "export"` and `reactCompiler: true` (via `babel-plugin-react-compiler`), so `npm run build` produces a static `out/` directory that CI deploys directly to Azure Static Web Apps.
 
 ### Data flow
 
@@ -48,7 +48,12 @@ TypeScript interfaces in `src/models/` define the shape of `portfolio.json`: `Po
 
 ### Infrastructure
 
-`infrastructure/terraform.tf` provisions an Azure Resource Group (`RaffaLabRG`, East US 2) using the `azurerm` provider pinned at `= 4.1.0`. State is currently local. See `docs/infrastructure-review-*.md` for DevOps analysis and recommended improvements.
+Terraform is split into two independent roots under `infrastructure/`:
+
+- **Main module** (`infrastructure/*.tf`): provisions the app's resource group and an `azurerm_static_web_app` (`main.tf`), using the `azurerm` provider `~> 5.2.0` with a remote `azurerm` backend (`providers.tf`). Per-environment config lives in `infrastructure/env/` — `development.tfvars`/`production.tfvars` set `environment_name`, and the matching `azurerm-config-*.tfbackend` files point at that environment's state storage account/container. `outputs.tf` exposes the static web app's deploy `api_key` (marked `sensitive`).
+- **Bootstrap module** (`infrastructure/bootstrap/`): a separate Terraform root, pinned to `azurerm = 4.1.0`, that provisions the remote-state backend itself — a locked resource group (`RaffaLabRG`) and a locked storage account/container for `.tfstate`. Run before the main module can `init` against remote state; changes here are rare.
+
+See `docs/infrastructure-review-*.md` for DevOps analysis and recommended improvements (these are point-in-time snapshots — verify findings against current `.tf` files before acting on them).
 
 ## Testing
 
@@ -60,4 +65,8 @@ jest.mock('@/services/portfolioService');
 
 ## CI/CD
 
-`.github/workflows/ci-cd-pipeline.yml` runs on push to `main`: installs dependencies, builds, then runs tests. The Docker image uses a multi-stage build (Node 25 Alpine → Nginx Alpine).
+`.github/workflows/ci-cd-pipeline.yml` runs on push to `main` (Node 24) as four sequential jobs: **build** (`npm ci && npm run build`, uploads `out/`) → **tests** (`npm run test`) → **terraform_plan** (Azure OIDC login, `terraform fmt -check`/`validate`/`plan` against the main module using `env/development.tfvars`, uploads the plan) → **terraform_apply** (gated on the `production` GitHub environment; applies the uploaded plan, reads `web_app_api_key` from Terraform output, then deploys `out/` to Azure Static Web Apps via `Azure/static-web-apps-deploy`).
+
+`.github/workflows/bootstrap.yml` is a manual (`workflow_dispatch`-only) plan/apply pipeline for the `infrastructure/bootstrap/` module — used to stand up or change the remote-state backend itself.
+
+A `Dockerfile` (Node 25 Alpine → Nginx Alpine multi-stage) exists in the repo but is not used by either workflow.

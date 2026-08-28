@@ -1,6 +1,6 @@
 variable "region" {
-    type        = string
-    description = "Azure region where resources are deployed (e.g. eastus2)."
+  type        = string
+  description = "Azure region where resources are deployed (e.g. eastus2)."
 }
 
 variable "application_name" {
@@ -19,16 +19,16 @@ variable "environment_name" {
 }
 
 variable "owner" {
-    type        = string
-    description = "Owner of the resources, used in the owner tag."
+  type        = string
+  description = "Owner of the resources, used in the owner tag."
 }
 
 variable "managed_by" {
-    type        = string
-    description = "Tool or team managing the resources, used in the managed_by tag."
+  type        = string
+  description = "Tool or team managing the resources, used in the managed_by tag."
 }
 
 variable "cost_center" {
-    type        = string
-    description = "Cost center for billing attribution, used in the cost_center tag."
+  type        = string
+  description = "Cost center for billing attribution, used in the cost_center tag."
 }
