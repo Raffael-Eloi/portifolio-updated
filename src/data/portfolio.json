@@ -212,5 +212,19 @@
             "startDate": "2018",
             "endDate": "2023"
         }
+    ],
+    "certifications": [
+        {
+            "name": "Azure Fundamentals",
+            "code": "AZ-900",
+            "issuer": "Microsoft",
+            "date": "2026"
+        },
+        {
+            "name": "GitHub Actions",
+            "code": "GH-200",
+            "issuer": "GitHub",
+            "date": "2026"
+        }
     ]
 }
