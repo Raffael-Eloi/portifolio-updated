@@ -40,6 +40,11 @@
   background: #181717;
 }
 
+.badgeHashicorp {
+  background: #ffffff;
+  padding: 6px;
+}
+
 .code {
   margin-top: 0.1rem;
   color: var(--text-secondary);
