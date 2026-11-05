@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "../../common/Typography/Typography";
 import InfoItem from "../../common/InfoItem/InfoItem";
-import { Mail, Linkedin, Github, PenLine, BookOpen } from "lucide-react";
+import { Mail, Linkedin, Github, PenLine, BookOpen, Youtube } from "lucide-react";
 import styles from "./BasicInfoSection.module.css";
 import { BasicInfo } from "@/models";
 import Card from "../../common/Card/Card";
@@ -55,6 +55,14 @@ const BasicInfoSection: React.FC<BasicInfoSectionProps> = ({ data }) => {
                             label="Medium"
                             value="raffaeleloi"
                             link={data.contact.medium}
+                        />
+                    )}
+                    {data.contact.youtube && (
+                        <InfoItem
+                            icon={Youtube}
+                            label="YouTube"
+                            value="@raffaeleloi"
+                            link={data.contact.youtube}
                         />
                     )}
                 </div>

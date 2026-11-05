@@ -4,4 +4,5 @@ export interface Contact {
   github?: string;
   devto?: string;
   medium?: string;
+  youtube?: string;
 }
