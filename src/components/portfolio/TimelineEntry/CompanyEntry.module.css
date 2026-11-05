@@ -1,0 +1,41 @@
+.company {
+  color: var(--accent-primary);
+}
+
+.tenure {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--text-secondary);
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-left: 0.25rem;
+  border-left: 2px solid var(--glass-border);
+}
+
+.role {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.25rem 0 1.25rem 1.25rem;
+}
+
+.role:last-child {
+  padding-bottom: 0;
+}
+
+.role::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 0.55rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--accent-secondary);
+  border: 2px solid var(--bg-secondary);
+}

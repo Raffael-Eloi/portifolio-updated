@@ -1,8 +1,8 @@
 {
     "basicInfo": {
         "name": "Raffael Eloi",
-        "title": "Software Engineer | Software Architect",
-        "summary": "I'm a Software Engineer based in Brazil, working remotely with international teams, mostly companies from the US and Canada. My focus is backend with C#, .NET, software architecture and Azure, but I've built enough frontend over the years to contribute across the stack when it matters. I'm deeply interested in software architecture and design, and lately I've been going further into cloud infrastructure and Terraform.\n\nOver the last few years I've worked across different industries and contexts, which has shaped how I think about building software that scales and survives over time. I hold a Postgraduate Specialisation in Software Architecture and I write occasionally about software engineering on Dev.to and Medium.\n\nOutside of work, I'm into combat sports and MMA, and I'm a bit obsessed with filtered coffee (to the point of once signing up for a barista workshop just to understand it better).",
+        "title": "Senior Software Engineer | Software Architect",
+        "summary": "I'm a Senior Software Engineer from Brazil, working remotely with teams in the US and Canada. I specialize in backend with C# and .NET, designing systems on Azure: microservices, event-driven communication with Service Bus, and cloud-native deployments on Container Apps, with Terraform for infrastructure. I care about software that stays maintainable as it grows, which means Clean Architecture, SOLID, TDD and CI/CD pipelines that make frequent releases safe.\n\nI've worked across restaurant tech, online art mentorship, corporate performance management and agribusiness, usually modernizing legacy systems while building new platforms. That work has included cutting cloud costs by more than 30% and bringing a page load from 4.5 seconds down to under 400 milliseconds. I also work across the stack when the product needs it.\n\nOutside my day job, I share what I learn. I organize a .NET community with in-person events and monthly meetups, mentor people starting out in tech, write on Dev.to and Medium, and run a YouTube channel in English about software engineering, architecture and technical books. I'm also growing as a speaker, starting with my first talk on building scalable applications.\n\nAway from the keyboard, I'm into combat sports and MMA, and I'm a bit obsessed with filtered coffee.",
         "contact": {
             "email": "raffaeleloi121@gmail.com",
             "linkedin": "https://linkedin.com/in/raffael-eloi",
@@ -19,9 +19,12 @@
             "startDate": "2025-10",
             "endDate": "Present",
             "description": "HungerRush is a leading restaurant technology company that powers thousands of restaurants across the U.S. with end-to-end solutions for POS, online ordering, delivery, payments, and guest engagement. The platform handles a high volume of transactions and integrations daily, connecting restaurants with major third-party delivery and ordering ecosystems.",
-            "roleResponsibility": "Building and maintaining seamless integrations between HungerRushâ€™s core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps.",
+            "roleResponsibility": "Building and maintaining seamless integrations between HungerRush's core platform and third-party services. Designing and maintaining backend services using C# and .NET on Azure Container Apps.",
             "details": [
-                "Designing, developing, and maintaining backend services that power external integrations.",
+                "Migrated APIs from Azure Functions to Azure Container Apps, reducing cloud costs by more than 30%.",
+                "Designed a data-driven API to centralize common partner integrations, reducing the number of APIs to maintain and shortening the time for new partners to integrate.",
+                "Migrated serialization from Newtonsoft.Json to System.Text.Json, enabling native OpenAPI support and a code-first approach to API documentation, replacing the manual SwaggerHub workflow.",
+                "Designing, developing, and maintaining backend services that power high-volume external integrations.",
                 "Adding new partner integrations and evolving existing ones as APIs and business rules change.",
                 "Refactoring and modernizing legacy systems, addressing technical debt, and improving reliability and scalability.",
                 "Supporting internal teams by investigating and resolving complex integration-related issues in production."
@@ -40,14 +43,6 @@
             ]
         },
         {
-            "company": "Velozient",
-            "role": "Software Engineer",
-            "startDate": "2024-08",
-            "endDate": "Present",
-            "description": "Velozient is a technology consulting and engineering firm that partners with companies to design, build, and evolve modern, scalable software solutions. The company provides experienced engineers who work closely with client teams to deliver high-quality systems across different industries.",
-            "roleResponsibility": "I work as a Software Engineer contractor through Velozient, contributing to client projects such as Mastrius and currently HungerRush. My work spans both backend and frontend applications, collaborating closely with client teams on system development, maintenance, refactoring, and continuous platform evolution."
-        },
-        {
             "company": "Mastrius",
             "role": "Software Engineer",
             "startDate": "2024-08",
@@ -55,10 +50,12 @@
             "description": "Mastrius is an online mentorship platform and creative community that connects growing artists with experienced master artists for live, interactive mentorship and guided learning. It offers small group sessions, workshops, and personalized feedback designed to help artists refine their skills, find their voice, and accelerate their artistic growth in a supportive, collaborative environment.",
             "roleResponsibility": "Joined a small tech team tasked with stabilizing and maintaining legacy systems built with older versions of .NET and Vue, while simultaneously designing and developing a new scalable platform",
             "details": [
+                "Replaced the WordPress UI with a Vue.js SPA, reducing page load time from 4.5 seconds to 378 milliseconds (over 90% faster).",
+                "Created reusable base structures using C# generics, significantly reducing the time to deliver new CRUD features.",
                 "Established engineering processes in Azure DevOps, including feature tracking, code reviews, and CI/CD pipelines to automate builds, testing, and deployments.",
                 "Designed and implemented a new microservices-based architecture using .NET 9, Entity Framework, SQL Server, and ElasticSearch, supporting modularity and scalability across services.",
                 "Built three new front-end applications with Vue 3 (Composition API), TypeScript, and Vuetify following an MVVM-style separation of components, controllers, and models.",
-                "Contributed to architectural decisions that balanced migrating legacy systems with building new platforms, supporting the companyâ€™s long-term growth strategy.",
+                "Contributed to architectural decisions that balanced migrating legacy systems with building new platforms, supporting the company's long-term growth strategy.",
                 "Designed software aligned with SOLID principles and Clean Architecture, resulting in maintainable and scalable systems."
             ],
             "skills": [
@@ -211,7 +208,7 @@
     "education": [
         {
             "school": "FIAP",
-            "degree": "Postgrad. Specialization, Software Architecture",
+            "degree": "Master's Degree, Software Architecture",
             "startDate": "2023",
             "endDate": "2024"
         },
@@ -227,19 +224,19 @@
             "name": "Azure Fundamentals",
             "code": "AZ-900",
             "issuer": "Microsoft",
-            "date": "2026"
+            "date": "2026-07"
         },
         {
             "name": "GitHub Actions",
             "code": "GH-200",
             "issuer": "GitHub",
-            "date": "2026"
+            "date": "2026-08"
         },
         {
             "name": "Terraform Associate",
             "code": "Terraform Associate 004",
             "issuer": "HashiCorp",
-            "date": "2026"
+            "date": "2026-09"
         }
     ]
 }
