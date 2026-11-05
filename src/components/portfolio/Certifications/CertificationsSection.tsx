@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github } from 'lucide-react';
+import { SiTerraform } from 'react-icons/si';
 import Typography from '../../common/Typography/Typography';
 import Card from '../../common/Card/Card';
 import { Certification } from '@/models';
@@ -33,6 +34,13 @@ const IssuerBadge: React.FC<{ issuer: string }> = ({ issuer }) => {
     return (
       <span className={`${certStyles.badge} ${certStyles.badgeGithub}`}>
         <Github size={16} color="#f8fafc" />
+      </span>
+    );
+  }
+  if (normalized.includes('hashicorp')) {
+    return (
+      <span className={`${certStyles.badge} ${certStyles.badgeHashicorp}`}>
+        <SiTerraform size={18} color="#7B42BC" />
       </span>
     );
   }

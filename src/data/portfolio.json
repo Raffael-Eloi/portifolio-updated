@@ -225,6 +225,12 @@
             "code": "GH-200",
             "issuer": "GitHub",
             "date": "2026"
+        },
+        {
+            "name": "Terraform Associate",
+            "code": "Terraform Associate 004",
+            "issuer": "HashiCorp",
+            "date": "2026"
         }
     ]
 }
