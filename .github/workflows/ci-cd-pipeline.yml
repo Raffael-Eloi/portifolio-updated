@@ -114,7 +114,7 @@ jobs:
             - name: Terraform init
               run: |
                   cd infrastructure
-                  terraform init -backend-config="env/azurerm-config-production.tfbackend"
+                  terraform init -reconfigure -backend-config="env/azurerm-config-production.tfbackend"
 
             - name: Download plan artifact
               uses: actions/download-artifact@v8
