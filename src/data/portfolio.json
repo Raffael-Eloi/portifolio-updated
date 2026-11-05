@@ -200,6 +200,14 @@
             "skills": ["IT Support", "Hardware"]
         }
     ],
+    "projects": [
+        {
+            "name": "UFC Events",
+            "description": "A free app that notifies you by email whenever a new UFC event is announced, so you can add it to your calendar. Every Monday an automation checks the events listed on ufc.com/events and sends the latest ones to subscribers. Just add your email and the notifications start arriving.",
+            "url": "https://ufc-events.raffaeleloi.dev/",
+            "logo": "/projects/ufc-logo.png"
+        }
+    ],
     "education": [
         {
             "school": "FIAP",
