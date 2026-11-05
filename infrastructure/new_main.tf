@@ -10,6 +10,6 @@ resource "azurerm_static_web_app" "web_app" {
   sku_tier            = "Free"
   sku_size            = "Free"
   lifecycle {
-    ignore_changes = [ "repository_branch", "repository_url", "tags" ]
+    ignore_changes = ["repository_branch", "repository_url", "tags"]
   }
 }
