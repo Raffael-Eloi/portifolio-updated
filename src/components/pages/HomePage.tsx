@@ -3,6 +3,8 @@ import MainLayout from '@/components/layout/MainLayout/MainLayout';
 import BasicInfoSection from '@/components/portfolio/BasicInfo/BasicInfoSection';
 import ExperienceSection from '@/components/portfolio/Experience/ExperienceSection';
 import ProjectsSection from '@/components/portfolio/Projects/ProjectsSection';
+import SkillsSection from '@/components/portfolio/Skills/SkillsSection';
+import ContentSection from '@/components/portfolio/Content/ContentSection';
 import EducationSection from '@/components/portfolio/Education/EducationSection';
 import CertificationsSection from '@/components/portfolio/Certifications/CertificationsSection';
 import { getPortfolioData } from '@/services/portfolioService';
@@ -14,9 +16,11 @@ const HomePage: React.FC = () => {
     <MainLayout>
       <BasicInfoSection data={data.basicInfo} />
       <ExperienceSection data={data.experience} />
+      <SkillsSection data={data.skills} />
       <ProjectsSection data={data.projects} />
       <EducationSection data={data.education} />
       <CertificationsSection data={data.certifications} />
+      <ContentSection data={data.contentAndCommunity} />
     </MainLayout>
   );
 };

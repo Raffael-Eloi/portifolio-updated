@@ -77,7 +77,7 @@
             "company": "Siteware",
             "role": "Mid Software Engineer",
             "startDate": "2024-03",
-            "endDate": "2024-09",
+            "endDate": "2024-08",
             "description": "Siteware is a company specializing in strategic performance and management software, helping organizations turn data into clear insights and results",
             "roleResponsibility": "Development of solutions for monitoring a business management system to monitor corporate performance",
             "details": [
@@ -203,6 +203,84 @@
             "description": "A free app that notifies you by email whenever a new UFC event is announced, so you can add it to your calendar. Every Monday an automation checks the events listed on ufc.com/events and sends the latest ones to subscribers. Just add your email and the notifications start arriving.",
             "url": "https://ufc-events.raffaeleloi.dev/",
             "logo": "/projects/ufc-logo.png"
+        }
+    ],
+    "contentAndCommunity": [
+        {
+            "title": "Raffael Eloi",
+            "kind": "YouTube Channel",
+            "icon": "youtube",
+            "description": "An English-language channel about software engineering, software architecture, cloud services and engineering best practices. The goal is to explain not only how things work, but why they work, when to use them and what trade-offs are involved.",
+            "tagline": "Real knowledge. Real experience. Real engineering.",
+            "url": "https://www.youtube.com/@raffaeleloi",
+            "linkLabel": "Visit the channel"
+        },
+        {
+            "title": "Swimming Against the Tide",
+            "kind": "YouTube Series · #SATT",
+            "icon": "waves",
+            "description": "A series born from frustration with how much technical content is now AI-generated. Every topic is something I research, study and understand myself before explaining it. It isn't anti-AI. It's about taking personal responsibility for the knowledge I share.",
+            "tagline": "Real knowledge. Real effort. Real engineering."
+        },
+        {
+            "title": "Show Me the Code",
+            "kind": "YouTube Series · #ShowMeTheCode",
+            "icon": "code",
+            "description": "A look inside my side projects: the motivation, architecture, technology choices, implementation, trade-offs and lessons learned. The first episode covers the UFC Events app.",
+            "tagline": "Beyond theory. Into the code."
+        },
+        {
+            "title": "Book Reviews",
+            "kind": "YouTube Series",
+            "icon": "book",
+            "description": "Software engineering and architecture books through my own perspective: key takeaways, where I agree or disagree, and how the ideas connect to real engineering experience.",
+            "tagline": "Read critically. Think independently. Share genuinely."
+        },
+        {
+            "title": ".NET Community",
+            "kind": "Community",
+            "icon": "users",
+            "description": "Together with my wife, I organize a technology community focused on .NET, with in-person events and monthly online meetups."
+        },
+        {
+            "title": "Mentoring & Speaking",
+            "kind": "Giving back",
+            "icon": "mic",
+            "description": "I mentor people who are just starting out in tech, and I'm growing as a speaker, starting with my first talk on building scalable applications."
+        }
+    ],
+    "skills": [
+        {
+            "category": "Languages",
+            "skills": ["C#", "Python", "TypeScript", "JavaScript", "SQL"]
+        },
+        {
+            "category": "Backend",
+            "skills": [".NET", "ASP.NET Core", "FastAPI", "Entity Framework", "REST APIs"]
+        },
+        {
+            "category": "Architecture",
+            "skills": ["Microservices", "Modular Monolith", "Monolith", "Event-Driven Architecture", "DDD", "Clean Architecture", "SOLID"]
+        },
+        {
+            "category": "Cloud & DevOps",
+            "skills": ["Azure", "Azure Container Apps", "Azure Functions", "Azure Service Bus", "Terraform", "Docker", "Kubernetes", "CI/CD", "AWS"]
+        },
+        {
+            "category": "Data",
+            "skills": ["SQL Server", "PostgreSQL", "Azure Cosmos DB", "MongoDB", "ElasticSearch"]
+        },
+        {
+            "category": "Frontend",
+            "skills": ["Vue", "React", "Angular", "jQuery"]
+        },
+        {
+            "category": "Testing & Practices",
+            "skills": ["TDD", "BDD", "Unit Testing", "NUnit", "xUnit", "MSTest", "Jest", "SpecFlow"]
+        },
+        {
+            "category": "AI Tools",
+            "skills": ["Claude", "Codex", "OpenAI"]
         }
     ],
     "education": [

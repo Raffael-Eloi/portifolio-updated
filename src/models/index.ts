@@ -5,4 +5,6 @@ export * from './Education';
 export * from './Certification';
 export * from './Extra';
 export * from './Project';
+export * from './ContentItem';
+export * from './SkillGroup';
 export * from './PortfolioData';
