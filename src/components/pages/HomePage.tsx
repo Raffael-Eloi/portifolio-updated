@@ -4,6 +4,7 @@ import BasicInfoSection from '@/components/portfolio/BasicInfo/BasicInfoSection'
 import ExperienceSection from '@/components/portfolio/Experience/ExperienceSection';
 import ProjectsSection from '@/components/portfolio/Projects/ProjectsSection';
 import SkillsSection from '@/components/portfolio/Skills/SkillsSection';
+import ArticlesSection from '@/components/portfolio/Articles/ArticlesSection';
 import ContentSection from '@/components/portfolio/Content/ContentSection';
 import EducationSection from '@/components/portfolio/Education/EducationSection';
 import CertificationsSection from '@/components/portfolio/Certifications/CertificationsSection';
@@ -20,6 +21,10 @@ const HomePage: React.FC = () => {
       <ProjectsSection data={data.projects} />
       <EducationSection data={data.education} />
       <CertificationsSection data={data.certifications} />
+      <ArticlesSection
+        data={data.articles}
+        allArticlesUrl={data.basicInfo.contact.medium}
+      />
       <ContentSection data={data.contentAndCommunity} />
     </MainLayout>
   );

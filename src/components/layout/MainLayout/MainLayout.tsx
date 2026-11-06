@@ -12,7 +12,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
         {children}
       </main>
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} Portfolio. Built with Next.js</p>
+        <p>© {new Date().getFullYear()} Raffael Eloi</p>
       </footer>
     </div>
   );

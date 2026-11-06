@@ -7,4 +7,5 @@ export * from './Extra';
 export * from './Project';
 export * from './ContentItem';
 export * from './SkillGroup';
+export * from './Article';
 export * from './PortfolioData';

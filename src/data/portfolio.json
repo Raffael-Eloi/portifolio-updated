@@ -283,6 +283,36 @@
             "skills": ["Claude", "Codex", "OpenAI"]
         }
     ],
+    "articles": [
+        {
+            "title": "Message As a Service — Service Bus",
+            "date": "2026-10",
+            "platform": "Medium",
+            "summary": "Compares synchronous HTTP with asynchronous messaging, then introduces Azure Service Bus queues and topics and their drawbacks.",
+            "url": "https://medium.com/@raffaeleloi/message-as-a-service-service-bus-67b32de92abb"
+        },
+        {
+            "title": "Stop Using Switch Statements: Keyed Services in .NET — A Practical Approach",
+            "date": "2026-03",
+            "platform": "Medium",
+            "summary": "Replaces if-else event dispatch with .NET keyed services, resolving the right implementation through dependency injection.",
+            "url": "https://medium.com/@raffaeleloi/stop-using-switch-statements-keyed-services-in-net-a-practical-approach-4ce3f106189d"
+        },
+        {
+            "title": "The cost of AI in your career",
+            "date": "2026-01",
+            "platform": "Medium",
+            "summary": "Why relying on AI without learning by doing, critical thinking and domain knowledge can hurt long-term career growth.",
+            "url": "https://medium.com/@raffaeleloi/the-cost-of-ai-in-your-career-aa7c48ead1e8"
+        },
+        {
+            "title": "Building better softwares: The power of building effective abstraction",
+            "date": "2024-05",
+            "platform": "Medium",
+            "summary": "Levels of abstraction, interfaces and the Dependency Inversion Principle, plus questions for assigning responsibilities in use cases.",
+            "url": "https://medium.com/@raffaeleloi/building-better-softwares-the-power-of-building-effective-abstraction-2b44a0cdb63c"
+        }
+    ],
     "education": [
         {
             "school": "FIAP",

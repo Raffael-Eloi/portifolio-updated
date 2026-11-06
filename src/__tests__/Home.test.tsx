@@ -23,6 +23,7 @@ jest.mock('@/services/portfolioService', () => ({
     projects: [],
     contentAndCommunity: [],
     skills: [],
+    articles: [],
     education: [],
     certifications: []
   })
